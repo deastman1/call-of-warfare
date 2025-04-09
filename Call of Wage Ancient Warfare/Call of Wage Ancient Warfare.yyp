@@ -34,6 +34,7 @@
   },
   "name":"Call of Wage Ancient Warfare",
   "resources":[
+    {"id":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},},
     {"id":{"name":"obj_cave","path":"objects/obj_cave/obj_cave.yy",},},
     {"id":{"name":"obj_collison","path":"objects/obj_collison/obj_collison.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
@@ -41,6 +42,7 @@
     {"id":{"name":"rm_house","path":"rooms/rm_house/rm_house.yy",},},
     {"id":{"name":"rm_world","path":"rooms/rm_world/rm_world.yy",},},
     {"id":{"name":"shadow","path":"sprites/shadow/shadow.yy",},},
+    {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},},
     {"id":{"name":"spr_cave","path":"sprites/spr_cave/spr_cave.yy",},},
     {"id":{"name":"spr_collison","path":"sprites/spr_collison/spr_collison.yy",},},
     {"id":{"name":"spr_house","path":"sprites/spr_house/spr_house.yy",},},
