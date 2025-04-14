@@ -10,7 +10,7 @@ direction = choose(90,180,0,270);
 /// @DnDArgument : "var" "direction"
 if(direction == 0){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
-	/// @DnDHash : 68648675
+	/// @DnDHash : 76268A3D
 	/// @DnDParent : 23867AB8
 	/// @DnDArgument : "spriteind" "spr_enemy_right"
 	/// @DnDSaveInfo : "spriteind" "spr_enemy_right"
@@ -24,7 +24,7 @@ if(direction == 0){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDArgument : "value" "180"
 if(direction == 180){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
-	/// @DnDHash : 771F523D
+	/// @DnDHash : 503B80CD
 	/// @DnDParent : 38EF56B0
 	/// @DnDArgument : "spriteind" "spr_enemy_left"
 	/// @DnDSaveInfo : "spriteind" "spr_enemy_left"
@@ -38,7 +38,7 @@ if(direction == 180){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDArgument : "value" "90"
 if(direction == 90){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
-	/// @DnDHash : 1C3905EA
+	/// @DnDHash : 5C2E40B1
 	/// @DnDParent : 3C221A15
 	/// @DnDArgument : "spriteind" "spr_enemy_up"
 	/// @DnDSaveInfo : "spriteind" "spr_enemy_up"
@@ -52,7 +52,7 @@ if(direction == 90){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDArgument : "value" "-90"
 if(direction == -90){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
-	/// @DnDHash : 3D30C8CA
+	/// @DnDHash : 1226A9F9
 	/// @DnDParent : 19283876
 	/// @DnDArgument : "spriteind" "spr_enemy_down"
 	/// @DnDSaveInfo : "spriteind" "spr_enemy_down"

@@ -1,3 +1,11 @@
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 127084E2
+/// @DnDArgument : "spriteind" "spr_playershoot_down"
+/// @DnDSaveInfo : "spriteind" "spr_playershoot_down"
+sprite_index = spr_playershoot_down;
+image_index = 0;
+
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Mouse_Released
 /// @DnDVersion : 1.1
 /// @DnDHash : 5CD533B6
