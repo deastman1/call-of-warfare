@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 51AB9B21
+/// @DnDArgument : "expr" "3"
+/// @DnDArgument : "var" "enemylives"
+enemylives = 3;
+
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Random
 /// @DnDVersion : 1.1
 /// @DnDHash : 6C9A7346

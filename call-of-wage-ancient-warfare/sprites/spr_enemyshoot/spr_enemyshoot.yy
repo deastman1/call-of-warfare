@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"spr_enemyshoot",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":63,
-  "bbox_left":12,
-  "bbox_right":53,
+  "bbox_left":16,
+  "bbox_right":70,
   "bbox_top":13,
   "collisionKind":1,
   "collisionTolerance":0,
