@@ -29,12 +29,22 @@ var l3C079A8D_0 = collision_ellipse(x + 250, y + 250, x + -250, y + -250, obj_pl
 	sprite_index = spr_enemyshoot;
 	image_index += 0;
 
-	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 	/// @DnDVersion : 1
-	/// @DnDHash : 23FA6520
+	/// @DnDHash : 7D4E01C5
 	/// @DnDParent : 3C079A8D
-	/// @DnDArgument : "alarm" "1"
-	alarm_set(1, 30);}
+	/// @DnDArgument : "obj" "obj_arrowenemy"
+	/// @DnDArgument : "not" "1"
+	/// @DnDSaveInfo : "obj" "obj_arrowenemy"
+	var l7D4E01C5_0 = false;l7D4E01C5_0 = instance_exists(obj_arrowenemy);if(!l7D4E01C5_0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 49089301
+		/// @DnDParent : 7D4E01C5
+		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos_relative" "1"
+		/// @DnDArgument : "objectid" "obj_arrowenemy"
+		/// @DnDSaveInfo : "objectid" "obj_arrowenemy"
+		instance_create_layer(x + 0, y + 0, "Instances", obj_arrowenemy);}}
 
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1

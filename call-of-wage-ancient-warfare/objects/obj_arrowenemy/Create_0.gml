@@ -1,13 +1,13 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
 /// @DnDVersion : 1
-/// @DnDHash : 520C385F
-/// @DnDArgument : "expr" "point_direction(x, y, obj_player.x, obj_player.y)"
-/// @DnDArgument : "var" "direction"
-direction = point_direction(x, y, obj_player.x, obj_player.y);
+/// @DnDHash : 73EDE54B
+/// @DnDArgument : "spriteind" "spr_none"
+/// @DnDSaveInfo : "spriteind" "spr_none"
+sprite_index = spr_none;
+image_index = 0;
 
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
-/// @DnDHash : 167B1E95
-/// @DnDArgument : "expr" "direction"
-/// @DnDArgument : "var" "image_angle"
-image_angle = direction;
+/// @DnDHash : 7906F38F
+/// @DnDArgument : "alarm" "1"
+alarm_set(1, 30);
