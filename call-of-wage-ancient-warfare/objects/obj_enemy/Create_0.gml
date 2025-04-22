@@ -1,5 +1,12 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 252FE82A
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "canshoot"
+canshoot = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 51AB9B21
 /// @DnDArgument : "expr" "3"
 /// @DnDArgument : "var" "enemylives"

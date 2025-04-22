@@ -6,6 +6,17 @@
 /// @DnDArgument : "var" "enemylives"
 enemylives += -1;
 
+/// @DnDAction : YoYo Games.Particles.Effect
+/// @DnDVersion : 1
+/// @DnDHash : 073FF427
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "type" "4"
+/// @DnDArgument : "where" "1"
+/// @DnDArgument : "size" "1"
+/// @DnDArgument : "color" "$FF1F1F9E"
+effect_create_above(4, x + 0, y + 0, 1, $FF1F1F9E & $ffffff);
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 27B7FC02
