@@ -1,3 +1,21 @@
+/// @DnDAction : YoYo Games.Drawing.Draw_Healthbar
+/// @DnDVersion : 1
+/// @DnDHash : 21AC4C75
+/// @DnDArgument : "x1" "50"
+/// @DnDArgument : "x1_relative" "1"
+/// @DnDArgument : "y1" "50"
+/// @DnDArgument : "y1_relative" "1"
+/// @DnDArgument : "x2" "200"
+/// @DnDArgument : "x2_relative" "1"
+/// @DnDArgument : "y2_relative" "1"
+/// @DnDArgument : "direction" "2"
+/// @DnDArgument : "value" "enemylives"
+/// @DnDArgument : "backcol" "$FF7F7F7F"
+/// @DnDArgument : "barcol" "$FF666666"
+/// @DnDArgument : "mincol" "$FF1919FF"
+/// @DnDArgument : "maxcol" "$FF5CCC4B"
+draw_healthbar(x + 50, y + 50, x + 200, y + 0, enemylives, $FF7F7F7F & $FFFFFF, $FF1919FF & $FFFFFF, $FF5CCC4B & $FFFFFF, 2, (($FF7F7F7F>>24) != 0), (($FF666666>>24) != 0));
+
 /// @DnDAction : YoYo Games.Collisions.If_Collision_Shape
 /// @DnDVersion : 1.1
 /// @DnDHash : 3C079A8D

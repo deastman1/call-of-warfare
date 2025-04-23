@@ -20,12 +20,26 @@ if(global.dialoguevalue > 0){	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDArgument : "y1" "700"
 	/// @DnDArgument : "x2" "1900"
 	/// @DnDArgument : "y2" "950"
-	/// @DnDArgument : "col1" "$FF28331D"
-	/// @DnDArgument : "col2" "$FF193319"
-	/// @DnDArgument : "col3" "$FF1D3549"
-	/// @DnDArgument : "col4" "$FF145066"
+	/// @DnDArgument : "col1" "$FFB2311B"
+	/// @DnDArgument : "col2" "$FFB22F1A"
+	/// @DnDArgument : "col3" "$FF7F2113"
+	/// @DnDArgument : "col4" "$FF7F2113"
 	/// @DnDArgument : "fill" "1"
-	draw_rectangle_colour(100, 700, 1900, 950, $FF28331D & $FFFFFF, $FF193319 & $FFFFFF, $FF145066 & $FFFFFF, $FF1D3549 & $FFFFFF, 0);}
+	draw_rectangle_colour(100, 700, 1900, 950, $FFB2311B & $FFFFFF, $FFB22F1A & $FFFFFF, $FF7F2113 & $FFFFFF, $FF7F2113 & $FFFFFF, 0);
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Gradient_Rect
+	/// @DnDVersion : 1
+	/// @DnDHash : 1AC7662A
+	/// @DnDParent : 4F2400F3
+	/// @DnDArgument : "x1" "100"
+	/// @DnDArgument : "y1" "700"
+	/// @DnDArgument : "x2" "1900"
+	/// @DnDArgument : "y2" "950"
+	/// @DnDArgument : "col1" "$FFFFFFFF"
+	/// @DnDArgument : "col2" "$FFFFFFFF"
+	/// @DnDArgument : "col3" "$FFFFFFFF"
+	/// @DnDArgument : "col4" "$FFFFFFFF"
+	draw_rectangle_colour(100, 700, 1900, 950, $FFFFFFFF & $FFFFFF, $FFFFFFFF & $FFFFFF, $FFFFFFFF & $FFFFFF, $FFFFFFFF & $FFFFFF, 1);}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -124,9 +138,9 @@ if(global.dialoguevalue > 0){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDParent : 1CBFDC28
 		/// @DnDArgument : "x" "120"
 		/// @DnDArgument : "y" "700"
-		/// @DnDArgument : "caption" ""Soldier: \n \n ""
-		/// @DnDArgument : "var" ""You would have to kill all of the enemy and retrieve a key.""
-		draw_text(120, 700, string("Soldier: \n \n ") + string("You would have to kill all of the enemy and retrieve a key."));}
+		/// @DnDArgument : "caption" ""Soldier: \n ""
+		/// @DnDArgument : "var" ""You would have to kill all of the enemy and retrieve 2 keys. \n They can be found at the cave and the neighboring village.""
+		draw_text(120, 700, string("Soldier: \n ") + string("You would have to kill all of the enemy and retrieve 2 keys. \n They can be found at the cave and the neighboring village."));}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
