@@ -17,30 +17,30 @@ if(global.dialoguevalue > 7){	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
 	/// @DnDHash : 4572A5AD
 	/// @DnDParent : 4F2400F3
-	/// @DnDArgument : "x1" "100"
-	/// @DnDArgument : "y1" "700"
-	/// @DnDArgument : "x2" "1900"
-	/// @DnDArgument : "y2" "950"
+	/// @DnDArgument : "x1" "50"
+	/// @DnDArgument : "y1" "500"
+	/// @DnDArgument : "x2" "1300"
+	/// @DnDArgument : "y2" "725"
 	/// @DnDArgument : "col1" "$FF1D1AB2"
 	/// @DnDArgument : "col2" "$FF1C19B2"
 	/// @DnDArgument : "col3" "$FF211DCC"
 	/// @DnDArgument : "col4" "$FF211ECC"
 	/// @DnDArgument : "fill" "1"
-	draw_rectangle_colour(100, 700, 1900, 950, $FF1D1AB2 & $FFFFFF, $FF1C19B2 & $FFFFFF, $FF211ECC & $FFFFFF, $FF211DCC & $FFFFFF, 0);
+	draw_rectangle_colour(50, 500, 1300, 725, $FF1D1AB2 & $FFFFFF, $FF1C19B2 & $FFFFFF, $FF211ECC & $FFFFFF, $FF211DCC & $FFFFFF, 0);
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Gradient_Rect
 	/// @DnDVersion : 1
 	/// @DnDHash : 1AC7662A
 	/// @DnDParent : 4F2400F3
-	/// @DnDArgument : "x1" "100"
-	/// @DnDArgument : "y1" "700"
-	/// @DnDArgument : "x2" "1900"
-	/// @DnDArgument : "y2" "950"
+	/// @DnDArgument : "x1" "50"
+	/// @DnDArgument : "y1" "500"
+	/// @DnDArgument : "x2" "1300"
+	/// @DnDArgument : "y2" "725"
 	/// @DnDArgument : "col1" "$FFFFFFFF"
 	/// @DnDArgument : "col2" "$FFFFFFFF"
 	/// @DnDArgument : "col3" "$FFFFFFFF"
 	/// @DnDArgument : "col4" "$FFFFFFFF"
-	draw_rectangle_colour(100, 700, 1900, 950, $FFFFFFFF & $FFFFFF, $FFFFFFFF & $FFFFFF, $FFFFFFFF & $FFFFFF, $FFFFFFFF & $FFFFFF, 1);}
+	draw_rectangle_colour(50, 500, 1300, 725, $FFFFFFFF & $FFFFFF, $FFFFFFFF & $FFFFFF, $FFFFFFFF & $FFFFFF, $FFFFFFFF & $FFFFFF, 1);}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -74,11 +74,11 @@ if(global.dialoguevalue > 7){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 405DF69A
 		/// @DnDParent : 5091AD3E
-		/// @DnDArgument : "x" "120"
-		/// @DnDArgument : "y" "700"
+		/// @DnDArgument : "x" "80"
+		/// @DnDArgument : "y" "500"
 		/// @DnDArgument : "caption" ""Medic: \n \n ""
 		/// @DnDArgument : "var" ""You look hurt!""
-		draw_text(120, 700, string("Medic: \n \n ") + string("You look hurt!"));}
+		draw_text(80, 500, string("Medic: \n \n ") + string("You look hurt!"));}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -106,11 +106,11 @@ if(global.dialoguevalue > 7){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 2E356CBC
 		/// @DnDParent : 5960D07F
-		/// @DnDArgument : "x" "120"
-		/// @DnDArgument : "y" "700"
+		/// @DnDArgument : "x" "80"
+		/// @DnDArgument : "y" "500"
 		/// @DnDArgument : "caption" ""Medic: \n \n ""
 		/// @DnDArgument : "var" ""While exploring the map, you can find health boosts.""
-		draw_text(120, 700, string("Medic: \n \n ") + string("While exploring the map, you can find health boosts."));}
+		draw_text(80, 500, string("Medic: \n \n ") + string("While exploring the map, you can find health boosts."));}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -138,11 +138,11 @@ if(global.dialoguevalue > 7){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 576B6263
 		/// @DnDParent : 1CBFDC28
-		/// @DnDArgument : "x" "120"
-		/// @DnDArgument : "y" "700"
+		/// @DnDArgument : "x" "80"
+		/// @DnDArgument : "y" "500"
 		/// @DnDArgument : "caption" ""Medic: \n \n ""
 		/// @DnDArgument : "var" ""Just keep your eyes open.""
-		draw_text(120, 700, string("Medic: \n \n ") + string("Just keep your eyes open."));}
+		draw_text(80, 500, string("Medic: \n \n ") + string("Just keep your eyes open."));}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1

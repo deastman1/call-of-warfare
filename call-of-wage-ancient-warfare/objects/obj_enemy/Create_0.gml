@@ -72,10 +72,3 @@ if(direction == 90){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDSaveInfo : "spriteind" "spr_enemy_up"
 	sprite_index = spr_enemy_up;
 	image_index = 0;}
-
-/// @DnDAction : YoYo Games.Instances.Set_Alarm
-/// @DnDVersion : 1
-/// @DnDHash : 75066263
-/// @DnDArgument : "steps" "1"
-/// @DnDArgument : "alarm" "4"
-alarm_set(4, 1);

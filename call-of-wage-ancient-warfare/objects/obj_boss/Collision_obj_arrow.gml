@@ -43,4 +43,12 @@ if(bosslives < 1){	/// @DnDAction : YoYo Games.Particles.Effect
 	/// @DnDVersion : 1
 	/// @DnDHash : 52E7F7B0
 	/// @DnDParent : 2275BD7C
-	instance_destroy();}
+	instance_destroy();
+
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 10F2815E
+	/// @DnDParent : 2275BD7C
+	/// @DnDArgument : "room" "rm_ending"
+	/// @DnDSaveInfo : "room" "rm_ending"
+	room_goto(rm_ending);}

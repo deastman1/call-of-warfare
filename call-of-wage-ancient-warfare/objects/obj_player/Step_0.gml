@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Miscellaneous.Set_Window_State
+/// @DnDVersion : 1
+/// @DnDHash : 34E79ECA
+/// @DnDArgument : "type" "2"
+window_set_fullscreen(true);
+
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Mouse_Released
 /// @DnDVersion : 1.1
 /// @DnDHash : 0B4A67E1

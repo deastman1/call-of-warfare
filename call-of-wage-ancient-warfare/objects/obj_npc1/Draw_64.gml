@@ -16,30 +16,30 @@ if(global.dialoguevalue > 0){	/// @DnDAction : YoYo Games.Drawing.Set_Color
 	/// @DnDVersion : 1
 	/// @DnDHash : 4572A5AD
 	/// @DnDParent : 4F2400F3
-	/// @DnDArgument : "x1" "100"
-	/// @DnDArgument : "y1" "700"
-	/// @DnDArgument : "x2" "1900"
-	/// @DnDArgument : "y2" "950"
+	/// @DnDArgument : "x1" "50"
+	/// @DnDArgument : "y1" "500"
+	/// @DnDArgument : "x2" "1300"
+	/// @DnDArgument : "y2" "725"
 	/// @DnDArgument : "col1" "$FFB2311B"
 	/// @DnDArgument : "col2" "$FFB22F1A"
 	/// @DnDArgument : "col3" "$FF7F2113"
 	/// @DnDArgument : "col4" "$FF7F2113"
 	/// @DnDArgument : "fill" "1"
-	draw_rectangle_colour(100, 700, 1900, 950, $FFB2311B & $FFFFFF, $FFB22F1A & $FFFFFF, $FF7F2113 & $FFFFFF, $FF7F2113 & $FFFFFF, 0);
+	draw_rectangle_colour(50, 500, 1300, 725, $FFB2311B & $FFFFFF, $FFB22F1A & $FFFFFF, $FF7F2113 & $FFFFFF, $FF7F2113 & $FFFFFF, 0);
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Gradient_Rect
 	/// @DnDVersion : 1
 	/// @DnDHash : 1AC7662A
 	/// @DnDParent : 4F2400F3
-	/// @DnDArgument : "x1" "100"
-	/// @DnDArgument : "y1" "700"
-	/// @DnDArgument : "x2" "1900"
-	/// @DnDArgument : "y2" "950"
+	/// @DnDArgument : "x1" "50"
+	/// @DnDArgument : "y1" "500"
+	/// @DnDArgument : "x2" "1300"
+	/// @DnDArgument : "y2" "725"
 	/// @DnDArgument : "col1" "$FFFFFFFF"
 	/// @DnDArgument : "col2" "$FFFFFFFF"
 	/// @DnDArgument : "col3" "$FFFFFFFF"
 	/// @DnDArgument : "col4" "$FFFFFFFF"
-	draw_rectangle_colour(100, 700, 1900, 950, $FFFFFFFF & $FFFFFF, $FFFFFFFF & $FFFFFF, $FFFFFFFF & $FFFFFF, $FFFFFFFF & $FFFFFF, 1);}
+	draw_rectangle_colour(50, 500, 1300, 725, $FFFFFFFF & $FFFFFF, $FFFFFFFF & $FFFFFF, $FFFFFFFF & $FFFFFF, $FFFFFFFF & $FFFFFF, 1);}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -72,11 +72,11 @@ if(global.dialoguevalue > 0){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 405DF69A
 		/// @DnDParent : 5091AD3E
-		/// @DnDArgument : "x" "120"
-		/// @DnDArgument : "y" "700"
+		/// @DnDArgument : "x" "80"
+		/// @DnDArgument : "y" "500"
 		/// @DnDArgument : "caption" ""Soldier: \n \n ""
 		/// @DnDArgument : "var" ""We have to fall back!""
-		draw_text(120, 700, string("Soldier: \n \n ") + string("We have to fall back!"));}
+		draw_text(80, 500, string("Soldier: \n \n ") + string("We have to fall back!"));}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -104,11 +104,11 @@ if(global.dialoguevalue > 0){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 2E356CBC
 		/// @DnDParent : 5960D07F
-		/// @DnDArgument : "x" "120"
-		/// @DnDArgument : "y" "700"
+		/// @DnDArgument : "x" "80"
+		/// @DnDArgument : "y" "500"
 		/// @DnDArgument : "caption" ""Soldier: \n \n ""
 		/// @DnDArgument : "var" ""Unless you want to do it on your own, but it's impossible!""
-		draw_text(120, 700, string("Soldier: \n \n ") + string("Unless you want to do it on your own, but it's impossible!"));}
+		draw_text(80, 500, string("Soldier: \n \n ") + string("Unless you want to do it on your own, but it's impossible!"));}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -136,11 +136,11 @@ if(global.dialoguevalue > 0){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 576B6263
 		/// @DnDParent : 1CBFDC28
-		/// @DnDArgument : "x" "120"
-		/// @DnDArgument : "y" "700"
+		/// @DnDArgument : "x" "80"
+		/// @DnDArgument : "y" "500"
 		/// @DnDArgument : "caption" ""Soldier: \n ""
-		/// @DnDArgument : "var" ""You would have to kill all of the enemy and retrieve 2 keys. \n They can be found at the cave and the neighboring village.""
-		draw_text(120, 700, string("Soldier: \n ") + string("You would have to kill all of the enemy and retrieve 2 keys. \n They can be found at the cave and the neighboring village."));}
+		/// @DnDArgument : "var" ""You would have to retrieve 3 keys. \n They can be found at the cave, the market and the neighboring village.""
+		draw_text(80, 500, string("Soldier: \n ") + string("You would have to retrieve 3 keys. \n They can be found at the cave, the market and the neighboring village."));}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -168,11 +168,11 @@ if(global.dialoguevalue > 0){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 193B8344
 		/// @DnDParent : 41C3B317
-		/// @DnDArgument : "x" "120"
-		/// @DnDArgument : "y" "700"
+		/// @DnDArgument : "x" "80"
+		/// @DnDArgument : "y" "500"
 		/// @DnDArgument : "caption" ""Soldier: \n \n ""
 		/// @DnDArgument : "var" ""Then you could walk upon the bridge to the island, where the commander rests.""
-		draw_text(120, 700, string("Soldier: \n \n ") + string("Then you could walk upon the bridge to the island, where the commander rests."));}
+		draw_text(80, 500, string("Soldier: \n \n ") + string("Then you could walk upon the bridge to the island, where the commander rests."));}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -200,11 +200,11 @@ if(global.dialoguevalue > 0){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 7EDDCD5D
 		/// @DnDParent : 27E15224
-		/// @DnDArgument : "x" "120"
-		/// @DnDArgument : "y" "700"
+		/// @DnDArgument : "x" "80"
+		/// @DnDArgument : "y" "500"
 		/// @DnDArgument : "caption" ""Soldier: \n \n ""
-		/// @DnDArgument : "var" ""Then you could finally finish the opposing side!""
-		draw_text(120, 700, string("Soldier: \n \n ") + string("Then you could finally finish the opposing side!"));}
+		/// @DnDArgument : "var" ""and finally finish the opposing side!""
+		draw_text(80, 500, string("Soldier: \n \n ") + string("and finally finish the opposing side!"));}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -232,11 +232,11 @@ if(global.dialoguevalue > 0){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 4EF24BB2
 		/// @DnDParent : 32173F36
-		/// @DnDArgument : "x" "120"
-		/// @DnDArgument : "y" "700"
+		/// @DnDArgument : "x" "80"
+		/// @DnDArgument : "y" "500"
 		/// @DnDArgument : "caption" ""Soldier: \n \n ""
 		/// @DnDArgument : "var" ""Goodluck soldier.""
-		draw_text(120, 700, string("Soldier: \n \n ") + string("Goodluck soldier."));}
+		draw_text(80, 500, string("Soldier: \n \n ") + string("Goodluck soldier."));}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1

@@ -2,8 +2,8 @@
 /// @DnDVersion : 1
 /// @DnDHash : 608D58F0
 /// @DnDArgument : "var" "global.key"
-/// @DnDArgument : "value" "2"
-if(global.key == 2){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDArgument : "value" "3"
+if(global.key == 3){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 391E6D1D
 	/// @DnDApplyTo : other
